@@ -8,7 +8,8 @@ const config = {
 
 	plugins: [require('daisyui')],
 	daisyui: {
-		themes: true
+		themes: ['lofi', 'business'],
+    base: false,
 	}
 };
 

@@ -10,3 +10,5 @@
 		<ThemeSelect />
 	</div>
 </div>
+  <button class="btn btn-secondary"> button </button>
+    <button class="btn btn-primary"> button2 </button>
