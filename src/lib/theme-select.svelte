@@ -12,6 +12,10 @@
 				document.documentElement.setAttribute('data-theme', theme);
 				current_theme = theme;
 				themeSelected = current_theme == 'lofi' ? true : false;
+			} else {
+				document.documentElement.setAttribute('data-theme', 'lofi');
+				current_theme = 'lofi';
+				themeSelected = current_theme == 'lofi' ? true : false;
 			}
 		}
 	});
