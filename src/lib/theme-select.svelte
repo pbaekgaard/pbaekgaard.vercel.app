@@ -29,7 +29,7 @@
 </script>
 
 <div class="">
-	<label class="btn btn-circle swap swap-rotate m-3">
+	<label class="btn btn-circle swap swap-rotate m-3 bg-transparent border-none hover:bg-base-200">
 		<!-- this hidden checkbox controls the state -->
 		<input type="checkbox" bind:checked={themeSelected} on:change={set_theme} />
 
