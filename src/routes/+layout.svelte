@@ -5,5 +5,7 @@
 
 <main class="h-screen w-screen overflow-hidden">
 	<Navbar />
-	<slot class="" />
+	<div class="mx-24 my-16">
+		<slot class="" />
+	</div>
 </main>

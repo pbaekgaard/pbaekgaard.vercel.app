@@ -42,9 +42,11 @@
 			</div>
 			<div
 				class="navbar-center prose z-30"
-				in:fly={{ y: -50, duration: 1000, delay: 100, easing: quintInOut }}
+				in:fly={{ y: -50, duration: 1500, delay: 100, easing: quintInOut }}
 			>
-				<h2><a class="no-underline" on:click={() => (open = !open)} href="/">Peter Bækgaard</a></h2>
+				<h2>
+					<a class="no-underline italic" on:click={() => (open = false)} href="/">Peter Bækgaard</a>
+				</h2>
 			</div>
 		{:else}
 			<div class="navbar-start" />
