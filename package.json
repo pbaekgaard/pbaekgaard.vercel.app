@@ -1,48 +1,40 @@
 {
-  "name": "svelte-daisyui",
-  "version": "0.0.1",
-  "private": true,
-  "scripts": {
-    "dev": "vite dev",
-    "build": "vite build",
-    "preview": "vite preview",
-    "test": "playwright test",
-    "test:unit": "vitest",
-    "lint": "prettier --plugin-search-dir . --check . && eslint .",
-    "format": "prettier --plugin-search-dir . --write ."
-  },
-  "devDependencies": {
-    "@fontsource/jetbrains-mono": "^5.0.14",
-    "@fontsource/londrina-sketch": "^5.0.14",
-    "@fontsource/rubik-vinyl": "^5.0.8",
-    "@playwright/test": "^1.28.1",
-    "@sveltejs/kit": "^1.5.0",
-    "autoprefixer": "^10.4.14",
-    "eslint": "^8.28.0",
-    "eslint-config-prettier": "^8.5.0",
-    "eslint-plugin-svelte3": "^4.0.0",
-    "postcss": "^8.4.24",
-    "postcss-load-config": "^4.0.1",
-    "prettier": "^2.8.0",
-    "prettier-plugin-svelte": "^2.8.1",
-    "svelte": "^3.54.0",
-    "tailwindcss": "^3.3.2",
-    "vitest": "^0.25.3"
-  },
-  "type": "module",
-  "dependencies": {
-    "@sveltejs/adapter-auto": "^2.1.0",
-    "@tailwindcss/typography": "^0.5.10",
-    "axios": "^1.6.5",
-    "daisyui": "^3.8.0",
-    "domutils": "^3.1.0",
-    "got": "^14.0.0",
-    "got-scraping": "^4.0.3",
-    "htmlparser2": "^9.1.0",
-    "jsdom": "^23.2.0",
-    "ky": "^1.2.0",
-    "node-html-parser": "^6.1.12",
-    "request": "^2.88.2",
-    "svelte-hamburgers": "^4.1.1"
-  }
+	"name": "svelte-daisyui",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"dev": "vite dev",
+		"build": "vite build",
+		"preview": "vite preview",
+		"test": "playwright test",
+		"test:unit": "vitest",
+		"lint": "prettier --plugin-search-dir . --check . && eslint .",
+		"format": "prettier --plugin-search-dir . --write ."
+	},
+	"devDependencies": {
+		"@fontsource/jetbrains-mono": "^5.0.14",
+		"@fontsource/londrina-sketch": "^5.0.14",
+		"@fontsource/rubik-vinyl": "^5.0.8",
+		"@playwright/test": "^1.28.1",
+		"@sveltejs/kit": "^1.5.0",
+		"autoprefixer": "^10.4.14",
+		"eslint": "^8.28.0",
+		"eslint-config-prettier": "^8.5.0",
+		"eslint-plugin-svelte3": "^4.0.0",
+		"postcss": "^8.4.24",
+		"postcss-load-config": "^4.0.1",
+		"prettier": "^2.8.0",
+		"prettier-plugin-svelte": "^2.8.1",
+		"svelte": "^3.54.0",
+		"tailwindcss": "^3.3.2",
+		"vitest": "^0.25.3"
+	},
+	"type": "module",
+	"dependencies": {
+		"@sveltejs/adapter-auto": "^2.1.0",
+		"@tailwindcss/typography": "^0.5.10",
+		"daisyui": "^3.8.0",
+		"node-html-parser": "^6.1.12",
+		"svelte-hamburgers": "^4.1.1"
+	}
 }

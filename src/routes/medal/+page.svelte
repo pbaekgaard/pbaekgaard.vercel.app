@@ -4,7 +4,7 @@
 		'https://medal.tv/games/csgo/clips/1eaSPSaFyROqlg/d1337spERrC3?invite=cr-MSxuVngsNzAxNjA0Mzcs?mobilebypass=true';
 	let output = '';
 	async function gotoDownload(event) {
-		const url = event.target.value;
+		const url = event.target.value + '?mobilebypass=true';
 		const response = await fetch('/medal/clip', {
 			method: 'POST',
 			body: JSON.stringify({ url }),
