@@ -11,7 +11,7 @@
 		<a class="no-underline text-inherit p-0 m-0" href="/{title.toLowerCase()}">
 			<h2 class="italic text-inherit border-inherit text-3xl">
 				<span
-					class=" opacity-25 group-hover:opacity-100 transition-all duration-300 ease-in-out text-inherit text-4xl text-left font-mono p-0 m-0"
+					class=" opacity-40 group-hover:opacity-100 transition-all duration-300 ease-in-out text-primary text-4xl text-left font-mono p-0 m-0"
 					>{prefix}</span
 				>
 				<span

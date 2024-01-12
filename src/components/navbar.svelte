@@ -45,7 +45,13 @@
 				in:fly={{ y: -50, duration: 1500, delay: 100, easing: quintInOut }}
 			>
 				<h2>
-					<a class="no-underline italic" on:click={() => (open = false)} href="/">Peter Bækgaard</a>
+					<a class="no-underline italic prose" on:click={() => (open = false)} href="/"
+						><h2
+							class=" opacity-80 hover:opacity-100 transition-all duration-300 hover:text-secondary"
+						>
+							Peter Bækgaard
+						</h2></a
+					>
 				</h2>
 			</div>
 		{:else}

@@ -30,7 +30,7 @@
 					Bækgaard.
 				</h1>
 			</div>
-			<div class="flex flex-col items-center">
+			<div class="basis-2/3 flex flex-col items-center">
 				<div>
 					<div
 						in:fly={{ x: -100, duration: 2000, delay: 1600, easing: quintInOut }}

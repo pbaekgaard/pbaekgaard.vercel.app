@@ -5,24 +5,27 @@
 	let current_theme = '';
 	let themeSelected = false;
 
+	let darkMode = 'business';
+	let lightMode = 'pastel';
+
 	onMount(() => {
 		if (typeof window !== 'undefined') {
 			const theme = window.localStorage.getItem('theme');
 			if (theme) {
 				document.documentElement.setAttribute('data-theme', theme);
 				current_theme = theme;
-				themeSelected = current_theme == 'lofi' ? true : false;
+				themeSelected = current_theme == lightMode ? true : false;
 			} else {
-				document.documentElement.setAttribute('data-theme', 'lofi');
-				current_theme = 'lofi';
-				themeSelected = current_theme == 'lofi' ? true : false;
+				document.documentElement.setAttribute('data-theme', lightMode);
+				current_theme = lightMode;
+				themeSelected = current_theme == lightMode ? true : false;
 			}
 		}
 	});
 
 	function set_theme(event: Event) {
-		let theme = themeSelected == true ? 'lofi' : 'business';
-		if (theme == 'lofi' || theme == 'business') {
+		let theme = themeSelected == true ? lightMode : darkMode;
+		if (theme == lightMode || theme == darkMode) {
 			const one_year = 60 * 60 * 24 * 365;
 			window.localStorage.setItem('theme', theme);
 			document.cookie = `theme=${theme}; max-age=${one_year}; path=/; SameSite=Lax`;
