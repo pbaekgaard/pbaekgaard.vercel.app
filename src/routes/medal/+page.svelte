@@ -72,6 +72,6 @@
 	<ul class="italic text-gray-400 pt-5">
 		<li>1. Copy Medal.tv Share link</li>
 		<li>2. Paste link here</li>
-		<li>3. Right click video and Save Video As</li>
+		<li>3. Download Clip</li>
 	</ul>
 </div>
